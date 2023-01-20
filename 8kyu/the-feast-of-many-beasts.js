@@ -1,0 +1,20 @@
+/* All of the animals are having a feast! Each animal is bringing one dish. There is just one rule: the dish must start and end with the same letters as the animal's name. For example, the great blue heron is bringing garlic naan and the chickadee is bringing chocolate cake.
+
+Write a function feast that takes the animal's name and dish as arguments and returns true or false to indicate whether the beast is allowed to bring the dish to the feast.
+
+Assume that beast and dish are always lowercase strings, and that each has at least two letters. beast and dish may contain hyphens and spaces, but these will not appear at the beginning or end of the string. They will not contain numerals.
+*/
+
+//Parameters: two strings, each containing at least two letters, no numbers, lowercase, may contain hyphens and spaces, but not at the beginning or end of the string.
+//Results: boolean, true or false to check if the first letter and last letter of each string is the same as the other.
+//Examples:
+    // Test.assertEquals(feast("great blue heron", "garlic naan"), true)
+    // Test.assertEquals(feast("chickadee", "chocolate cake"), true)
+    // Test.assertEquals(feast("brown bear", "bear claw"), false)
+//Pseudocode: 
+    //1. Get the start and end characters of the beast parameter and dish parameter 
+    //2. Compare to return true of false.
+
+function feast(beast, dish) {
+    return beast[0] === dish[0] && beast[beast.length-1] === dish[dish.length-1]
+}
