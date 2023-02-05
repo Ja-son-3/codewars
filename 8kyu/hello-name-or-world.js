@@ -3,7 +3,7 @@
 // Assuming that name is a String and it checks for user typos to return a name with a first capital letter (Xxxx).
 
 //Parameters: Given a string parameter.
-//Results: 
+//Results: Return a string of "Hello, World!" if the given parameter is empty or null. Otherwise return a string of "Hello, (given parameter)!" while capitalizing the first character of the given parameter and setting the rest of the string to lowercase.
 //Examples:
     // assert.isDefined(actualJohn, "You have to return a string instead of logging it to the console");
     // assert.strictEqual(actualJohn, 'Hello, John!', "returns 'Hello, John!' when given 'johN'");
