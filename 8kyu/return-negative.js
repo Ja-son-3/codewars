@@ -7,10 +7,10 @@
 //Parameters: given a number parameter, that be zero or a positive or negative floating number.
 //Results: If the given parameter is negative, return it. If it is zero, return a value of zero. If the given parameter is positive, return it with a negative value.
 //Examples:
-// makeNegative(1);    // return -1
-// makeNegative(-5);   // return -5
-// makeNegative(0);    // return 0
-// makeNegative(0.12); // return -0.12
+    // makeNegative(1);    // return -1
+    // makeNegative(-5);   // return -5
+    // makeNegative(0);    // return 0
+    // makeNegative(0.12); // return -0.12
 //Pseudocode: 
     //1. Use an if statement to check if the given parameter is negative. 
     //2. If the given parameter is negative, return the parameter.
