@@ -15,7 +15,7 @@
 //Pseudocode: 
     //1. Create an if statment to check if employed is true and vacation is false. If so return a value of true.
     //2. Otherwise return a value of false.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function setAlarm(employed, vacation){
     if (employed === true && vacation === false) {

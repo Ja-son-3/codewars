@@ -10,7 +10,7 @@
     // assert.strictEqual(grow([2, 2, 2, 2, 2, 2]), 64); 
 //Pseudocode: 
     //1. Use the reduce array method to multiply each element together with a starting value of 1, as a value of zero will only return a 0 result.
-//Time Complexity: linear or 0(n), depending on the length of the given array.
+//Time Complexity: linear or O(n), depending on the length of the given array.
 
 function grow(x){
     return x.reduce((a,c) => a * c,1)

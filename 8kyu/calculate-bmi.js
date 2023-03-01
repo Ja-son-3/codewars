@@ -15,7 +15,7 @@
 //Pseudocode: 
     //1. Calculate the BMI index value by using the bmi = weight / height2 formula.
     //2. Create an if statement that checks what category the bmi value index is in and return the appropriate string respective to its value.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function bmi(weight, height) {
     let bmiValue = weight/(height * height)

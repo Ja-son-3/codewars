@@ -16,7 +16,7 @@
 //Pseudocode: 
     //1. Use a template literal to write the string.
     //2. In the template literal use a string interpolation together with the indexOf method to find the index of "needle" plus 1 to account for index starting at 0.
-//Time Complexity: linear or 0(n)
+//Time Complexity: linear or O(n)
 
 function findNeedle(haystack) {
     return `found the needle at position ${haystack.indexOf('needle') + 1}`

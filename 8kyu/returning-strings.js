@@ -7,7 +7,7 @@
     // assert.strictEqual(greet("Shingles"), "Hello, Shingles how are you doing today?");
 //Pseudocode: 
     //1. Use a template literal with string interpolation to include the given name parameter in the return string.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function greet(name){
     return `Hello, ${name} how are you doing today?`

@@ -17,7 +17,7 @@
     //1. create an if statement using the remainder operator to divide the first parameter by the other two. 
     //2. If divisible by both, return true.
     //3. Otherwise return false.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function isDivisible(n, x, y) {
     if (n % x === 0 && n % y === 0) {

@@ -20,7 +20,7 @@
     //3. Repeat at index of 1 in the array to get the last name and return the first letter by selecting the index of 0.
     //4. Use toUpperCase() string method to capitalize the first and last intials.
     //4. Input a period between the two string interpolation and return the result.
-//Time Complexity: Constant or 0(1) in this scenario as split will always result in two array elements. and outputting the character at a specific index is the same calucation regardless of length.
+//Time Complexity: Constant or O(1) in this scenario as split will always result in two array elements. and outputting the character at a specific index is the same calucation regardless of length.
 
 function abbrevName(name){
     let splitName = name.split(' ')

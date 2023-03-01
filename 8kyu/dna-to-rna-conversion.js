@@ -17,7 +17,7 @@
 //Pseudocode: 
     //1. Use a replaceAll string method to replace all the T's with U's
     //2. Return the resulting RNA string.
-//Time Complexity: Linear or 0(n) depending on the length of the string.
+//Time Complexity: Linear or O(n) depending on the length of the string.
 
 function DNAtoRNA(dna) {
     return dna.replaceAll('T','U')

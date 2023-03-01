@@ -29,7 +29,7 @@
     //   })
 //Pseudocode: 
     //1. Use the Number.isInteger static method after dividing the base parameter by the factor parameter to check if the result is an integer. If true, return true. Otherwise return false.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function checkForFactor (base, factor) {
     return Number.isInteger(base / factor)

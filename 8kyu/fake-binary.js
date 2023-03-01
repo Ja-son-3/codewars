@@ -12,7 +12,7 @@
     //1. Use the string split method to seperate each character into it's own element in an array.
     //2. Use the map array method to iterate over each element of the array, checking if they are less than 5. If they are change it's value to 0, otherwise change it's value to 1.
     //3. Use the join method to convert the mapped over array into a string. and return the results.
-//Time Complexity: Linear or 0(n) depending on the length of the given string.
+//Time Complexity: Linear or O(n) depending on the length of the given string.
 
 function fakeBin(x){
     return x.split('').map(e => e < 5 ? 0 : 1).join('')

@@ -14,7 +14,7 @@
     //1. Use the reduce method to get the sum of the given array.
     //2. Divide the reduce result by the length of the given array parameter to get the average.
     //3. Use the Math.floor static method to round the avg down to the nearest integer and return the result.
-//Time Complexity: Linear or 0(n), depending on the length of the given array.
+//Time Complexity: Linear or O(n), depending on the length of the given array.
 
 function getAverage(marks){
     return Math.floor(marks.reduce((a,c) => a+c,0) / marks.length)

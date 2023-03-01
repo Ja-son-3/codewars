@@ -23,7 +23,7 @@
     //1. Use an if statement to check if the given parameter is 7 or greater. If so return the amount of days multipled by 40 minus 50 for the 7 day or over discount.
     //2. Use an if statement to check if the given parameter is 3 or greater. If so return the amount of days multipled by 40 minus 20 for the 3 day, but less than 7 day discount.
     //3. In all other cases return the given parameter multiplied by 40 and return the result.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function rentalCarCost(d) {
     if (d >= 7) {

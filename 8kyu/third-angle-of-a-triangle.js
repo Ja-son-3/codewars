@@ -15,7 +15,7 @@
     // assert.strictEqual(otherAngle(10, 20), 150);
 //Pseudocode: 
     //1. Return the remaining number of 180 minus the two given parameters and return the result.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function otherAngle(a, b) {
     return 180 - a - b

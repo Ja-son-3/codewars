@@ -16,7 +16,7 @@
     //3. Use the reverse array method to reverse the order of the elements in the array and save its result to a variable.
     //4. Use the array map method to iterate over each item in the array using the Number function or parseInt function to set each element from a string back to a number.
     //5. Return the result.
-//Time Complexity: 
+//Time Complexity: O(n) or linear, depending on the value of the given number.
 
 function digitize(n) {
     let arr = (n.toString().split('').reverse())

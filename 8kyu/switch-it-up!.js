@@ -14,7 +14,7 @@
     // assert.strictEqual(switchItUp(5),"Five");
 //Pseudocode: 
     //1. Use the switch method and return the corresponding word for the given number.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function switchItUp(number){
     switch (number) {

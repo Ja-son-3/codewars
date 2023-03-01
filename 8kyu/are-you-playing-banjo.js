@@ -17,7 +17,7 @@
 //Pseudocode: 
     //1. Create an if statement to check if the first letter in the given string is an r. If so return a string using a template literal with the given parameter in a string interpolation.
     //2. If the name does not start with an r. return a string using a template literal with the given parameter in a string interpolation.
-//Time Complexity: constant or 0(1)
+//Time Complexity: constant or O(1)
 
 function areYouPlayingBanjo(name) {
     if (name[0] === "r" || name[0] === "R") {

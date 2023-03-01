@@ -16,7 +16,7 @@
 //Pseudocode: 
     //1. Use an if statement to check if either of the two given parameter's value is less than zero. If so return a value of zero
     //2. Otherwise return the product of n and m.
-//Time Complexity: Constant of 0(1)
+//Time Complexity: Constant of O(1)
 
 function paperwork(n, m) {
   if (n < 0 || m < 0) {

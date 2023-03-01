@@ -19,7 +19,7 @@
     // Test.assertEquals(goals(43, 10, 5), 58)
 //Pseudocode: 
     //1. Using concatenation, add up all the three parameters and return the result.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
     return laLigaGoals + copaDelReyGoals + championsLeagueGoals

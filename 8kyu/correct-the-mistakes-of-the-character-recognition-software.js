@@ -23,7 +23,7 @@
     //3. If it is replace it with its corresponding current character.
     //4. Use the join method over the resulting array to return a string value.
     //5. Return the string result.
-//Time Complexity: Linear or 0(n), depending on the length of the given string array.
+//Time Complexity: Linear or O(n), depending on the length of the given string array.
 
 function correct(string) {
     const corrections = { "5": "S", "0": "O", "1": "I"}

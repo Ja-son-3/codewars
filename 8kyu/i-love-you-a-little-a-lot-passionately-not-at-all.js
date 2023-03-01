@@ -21,7 +21,7 @@
 //Pseudocode: 
     //1. Use a switch case where the expression uses a remainder operator and divides by 6.
     //2. Input a case and return the appropriate string for each respective petal.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function howMuchILoveYou(nbPetals) {
     switch(nbPetals % 6) {

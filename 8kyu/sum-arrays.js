@@ -12,7 +12,7 @@
     // Test.assertEquals(sum([1, 5.2, 4, 0, -1]), 9.2);
 //Pseudocode: 
     //1. Use the reduce method the sum the values of the given number array.
-//Time Complexity: linear or 0(n) depending on the length of the given array parameter.
+//Time Complexity: linear or O(n) depending on the length of the given array parameter.
 
 function sum (numbers) {
     return numbers.reduce((a, c) => a + c,0)

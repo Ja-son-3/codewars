@@ -18,7 +18,7 @@
     // assert.strictEqual(testEven(-4), true, "testEven for 2");
 //Pseudocode: 
     //1. Use the remainder operator and divide by two to find out if the given parameter is even. If it is even return true. Otherwise return false. 
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function testEven(n) {
     return n % 2 === 0

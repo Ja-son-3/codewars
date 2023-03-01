@@ -12,7 +12,7 @@
 //Pseudocode: 
     //1. Put the if statement above the return "Hello, " + name + "!".
     //2. Encase return "Hello, my love!" within the if statement that checks if the given name parameter is "Johnny"
-//Time Complexity: Constant of 0(1)
+//Time Complexity: Constant of O(1)
 
 function greet(name){
     if(name === "Johnny") {

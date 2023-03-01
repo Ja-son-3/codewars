@@ -25,7 +25,7 @@
     //1. Use the split method to seperate each character in the given string into it's own element in an array.
     //2. Use the map array method to iterate over each element in the array, checking if the leter is capitalized. If it is capitalized make it lowercase with the toLowerCase method. If it is not capitalized, make it uppercase with the toUpperCase method.
     //3. Use the join method to combine all the elements of the array back into a string and return the result.
-//Time Complexity: Linear or 0(n), depending on the length of the given string.
+//Time Complexity: Linear or O(n), depending on the length of the given string.
 
 String.prototype.toAlternatingCase = function () {
     return this.split('').map(e => e === e.toUpperCase() ? e.toLowerCase() : e.toUpperCase()).join('')

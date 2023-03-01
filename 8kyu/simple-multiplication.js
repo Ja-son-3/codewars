@@ -12,7 +12,7 @@
     //1. Use an if statement to check if the number is even by using the remainder operator and dividing by two.
     //2. If the given parameter is even, return it's value multiplied by 8.
     //3. Otherwise return the given parameter multiplied by 9.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function simpleMultiplication(number) {
     if (number % 2 === 0) {

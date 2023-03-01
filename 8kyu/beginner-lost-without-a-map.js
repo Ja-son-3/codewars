@@ -11,7 +11,7 @@
     // assert.deepEqual(maps([2, 2, 2, 2, 2, 2]), [4, 4, 4, 4, 4, 4]);
 //Pseudocode: 
     //1. Use the map method over the given array parameter, multiplying each array element by two.
-//Time Complexity: linear or 0(n) depending on the length of the array.
+//Time Complexity: linear or O(n) depending on the length of the array.
 
 function maps(x){
     return x.map(x => x*2)

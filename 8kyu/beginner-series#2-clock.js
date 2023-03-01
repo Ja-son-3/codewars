@@ -15,7 +15,7 @@
     //2. Convert minutes to milliseconds by multiplying it by 60,000
     //3. Convert seconds to milliseconds by multiplying it by 1,000
     //4. Add all three converted values and return the result, representing the given time parameters in milliseconds.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function past(h, m, s){
     return h * 3600000 + m * 60000 + s * 1000

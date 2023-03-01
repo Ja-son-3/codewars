@@ -14,7 +14,7 @@
     // Test.assertEquals(move(2, 5), 12);
 //Pseudocode: 
     //1. return the current position of the hero plus the dice roll parameter multiplied by two. 
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function move (position, roll) {
     return position + roll * 2

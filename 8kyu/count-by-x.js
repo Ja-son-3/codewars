@@ -17,7 +17,7 @@
     //1. Create a new empty array to be returned as the result.
     //2. Use a for loop that will loop n times and with each iteration using the push method to add an element of i*x to the new array.
     //3. Return the array variable
-//Time Complexity: Linear or 0(n), depending on the n parameter.
+//Time Complexity: Linear or O(n), depending on the n parameter.
 
 function countBy(x, n) {
     let arr = []

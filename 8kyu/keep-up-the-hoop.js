@@ -12,7 +12,7 @@
 //Pseudocode: 
     //1. Use an if statement to check if the given parameter is 10 or greater. If so return a string of "Great, now move on to tricks"
     //2. Otherwise return a string of "Keep at it until you get it"
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function hoopCount (n) {
     if (n >= 10) {

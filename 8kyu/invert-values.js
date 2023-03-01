@@ -13,7 +13,7 @@
     // assert.deepEqual(invert([0]), [-0]);
 //Pseudocode: 
     //1. Use the array map method to apply the unary negation operator to all the elements in the given array, returning it's inverse value.
-//Time Complexity: linear or 0(n) depending on the length of the given array.
+//Time Complexity: linear or O(n) depending on the length of the given array.
 
 function invert(array) {
     return array.map(e => -e)

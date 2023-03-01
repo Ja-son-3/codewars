@@ -11,7 +11,7 @@
 //Pseudocode: 
     //1. Using the Number function or the unary operator of + to convert all the elements in the given array by iterating through the Map array Method.
     //2. Use the reduce array method to add up all the elements of the array together and return it's sum.
-//Time Complexity: Linear or 0(n), depending on the length of the given array.
+//Time Complexity: Linear or O(n), depending on the length of the given array.
 
 function sumMix(x){
     return x.map(num => +num).reduce((a,c) => a+c,0)

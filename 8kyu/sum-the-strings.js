@@ -19,7 +19,7 @@
 //Pseudocode: 
     //1. Use the unary plus operator to convert each into string into an integer value and add the value's together to compute the sum.
     //2. Use the toString method on the resulting sum to convert it back into a string and return the result.
-//Time Complexity: constant or 0(1)
+//Time Complexity: constant or O(1)
 
 function sumStr(a,b) {
     return (+a + +b).toString()

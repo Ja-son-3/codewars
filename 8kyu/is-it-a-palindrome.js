@@ -15,7 +15,7 @@
     //1. In order to get the reverse of the given string use the split method to turn each character into an element in an array.
     //2. Use to reverse array method to reverse the order of the array.
     //3. Use the join method to combine all elements back into a string.
-//Time Complexity: Linear or 0(n), depending on the length of the given string 
+//Time Complexity: Linear or O(n), depending on the length of the given string 
 
 function isPalindrome(x) {
     return x.split("").reverse().join("").toLowerCase() == x.toLowerCase()

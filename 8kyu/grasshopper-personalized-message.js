@@ -13,7 +13,7 @@
 //Pseudocode: 
     //1. Use an if statement to check if the two given parameters are the same, if they are return a string of 'Hello boss'
     //2. Otherwise return a string of 'Hello guest'
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function greet (name, owner) {
     if (name === owner) {

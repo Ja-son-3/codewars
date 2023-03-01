@@ -25,7 +25,7 @@
 //Pseudocode: 
     //1. Find how long or how far into the future the father will be twice the age of his son by subtracting the dad's age by 2 times the son's age.
     //2. If the case that it is in the future the result will be negative. Use the Math.abs static method to convert all values to postive and return the result.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function twiceAsOld(dadYearsOld, sonYearsOld) {
     return Math.abs(dadYearsOld - 2* sonYearsOld)

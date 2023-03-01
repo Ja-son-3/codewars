@@ -19,7 +19,7 @@
     //2. Use the reverse array method to reverse the order of the elements in the new array.
     //3. Use the join with a whitespace seperator to convert the array back into a string with a space between each word.
     //4. Return the new string.
-//Time Complexity: Linear or 0(n), depending on the amount of words in the given string.
+//Time Complexity: Linear or O(n), depending on the amount of words in the given string.
 
 function reverseWords(str){
     return str.split(' ').reverse().join(' ')

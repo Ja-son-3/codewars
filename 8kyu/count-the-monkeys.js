@@ -18,7 +18,7 @@
     //1. Create an empty array variable to contain the return result
     //2. Use a for loop, looping n number of times. With each iteration using the array push method of the current loop number to the empty array.
     //3. Return the array variable.
-//Time Complexity: Linear or 0(n), depending on the value of the given parameter.
+//Time Complexity: Linear or O(n), depending on the value of the given parameter.
 
 function monkeyCount(n) {
     let arr = []

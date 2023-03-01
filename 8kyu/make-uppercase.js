@@ -9,7 +9,7 @@
     // assert.strictEqual(makeUpperCase("HELLO"), "HELLO");
 //Pseudocode: 
     //1. Use to toUpperCase() method on the given string and return it.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function makeUpperCase(str) {
     return str.toUpperCase()

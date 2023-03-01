@@ -22,7 +22,7 @@
 //Pseudocode: 
     //1. Divide the given time parameter by two to find the amount of litres for the given time.
     //2. Use the Math.floor static method to round the litres value down to the closest integer.
-//Time Complexity: constant or 0(1)
+//Time Complexity: constant or O(1)
 
 function litres(time) {
     return Math.floor(time/2)

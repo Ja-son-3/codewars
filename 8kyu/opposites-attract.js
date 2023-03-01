@@ -13,7 +13,7 @@
     //1. Use an if statement to check if both values are the same after using the remainder operator to divide by two.
     //2. If they are the same return false.
     //3. In any other case return true.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function lovefunc(flower1, flower2){
     if (flower1 % 2 === flower2 % 2) {

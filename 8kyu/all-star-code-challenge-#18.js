@@ -21,7 +21,7 @@
     //1. Use the split method to convert the given string parameter into an array of elements.
     //2. Use the filter method to return an array with only the letter of the letter parameter.
     //3. Use the length method to return the amount of that letter in the given string parameter and return the result.
-//Time Complexity: Linear or 0(n), depending on the length of the given str parameter.
+//Time Complexity: Linear or O(n), depending on the length of the given str parameter.
 
 function strCount(str, letter){  
     return str.split('').filter(e => e === letter).length

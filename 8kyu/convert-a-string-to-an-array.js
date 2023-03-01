@@ -12,7 +12,7 @@
 //Pseudocode: 
     //1. Use a string split method to convert a string into an array. Using whitespaces as a seperator for each word of the array.
     //2. Return the new array of words.
-//Time Complexity: Linear or 0(n), depending on the amount of words in the given string parameter.
+//Time Complexity: Linear or O(n), depending on the amount of words in the given string parameter.
 
 function stringToArray(string){
     return string.split(' ')

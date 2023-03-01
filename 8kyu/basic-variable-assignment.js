@@ -11,7 +11,7 @@
     // assert.strictEqual(name, "codewa.rs");
 //Pseudocode: 
     //1. Change the equal to operators to a declaration operator.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 var a = "code";
 var b = "wa.rs";

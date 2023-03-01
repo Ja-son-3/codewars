@@ -7,7 +7,7 @@
 //Pseudocode: 
     //1. Create a function called square with a single parameter.
     //2. Return a value of the given parameter multipled with itself.
-//Time Complexity: constant or 0(1)
+//Time Complexity: constant or O(1)
 
 function square(n) {
     return n * n

@@ -9,7 +9,7 @@
     //1. Use the filter array method to return a new array with only true values by using Boolean as the filter. Only values resulting in true will be returned.
     //2. Use the length array method to find the length of the array, representing the amount of present sheep.
     //3. Return the length value.
-//Time Complexity: linear or 0(n)
+//Time Complexity: linear or O(n)
 
 function countSheeps(arrayOfSheep) {
     return arrayOfSheep.filter(Boolean).length

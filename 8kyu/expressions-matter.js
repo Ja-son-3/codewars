@@ -42,7 +42,7 @@
     //     assert.strictEqual(expressionMatter(1, 10, 1), 12);
 //Pseudocode: 
     //1. Use the Math.max static method to output the max value of the four possible outcomes and return the result.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function expressionMatter(a, b, c) {
     return Math.max(a+b+c, a*b*c, (a+b)*c,a*(b+c))

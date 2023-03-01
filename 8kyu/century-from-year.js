@@ -15,7 +15,7 @@
     //1. Divide the given year parameter by 100 to reduce the value of the given parameter to a factor of a century.
     //2. Use the Math.ceil static method to round up the new value to get the century the original parameter was in.
     //3. Return the Math.ceil value
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function century(year) {
     return Math.ceil(year/100)

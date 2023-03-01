@@ -14,7 +14,7 @@
     //   assert.strictEqual(smash(["this", "is", "a", "really", "long", "sentence"]), "this is a really long sentence");
 //Pseudocode: 
     //1. Use the join array method to combine all the elements of the given array parameter into a string, seperating each element with a whitespace ' ' and return the result.
-//Time Complexity: Linear or 0(n), depending on the length of the array.
+//Time Complexity: Linear or O(n), depending on the length of the array.
 
 function smash (words) {
     return words.join(' ')

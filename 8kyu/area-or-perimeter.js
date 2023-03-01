@@ -14,7 +14,7 @@
 //Pseudocode: 
     //1. Use an if statement to check if the length and width is the same for a square. If it is return the product of the given parameters.
     //2. Otherwise, multiply both parameters by two and sum them and return teh result.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 const areaOrPerimeter = function(l , w) {
     if (l === w) {

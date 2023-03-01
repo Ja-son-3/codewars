@@ -15,7 +15,7 @@
     //1. Convert the given km value to cm by multiplying it by 100,0000.
     //2. Convert the one hour value to one second by dividing the cm result by 3,600.
     //3. Round down to the nearest integer by using the Math.floor static method and return the result.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function cockroachSpeed(s) {
     return Math.floor(s*100000/3600)

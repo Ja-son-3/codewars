@@ -19,7 +19,7 @@
 //Pseudocode: 
     //1. Use an if statement to check if bonus is true. If true return a value of the euro currency symbol string plus the salary parameter.
     //2. If bonus is false, return a string by concatenating the euro dollar as a string with the salary parameter.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function bonusTime(salary, bonus) {
     if (bonus) {

@@ -41,7 +41,7 @@
 //Pseudocode: 
     //1. Calculate the average of the three given parameters but adding them together and dividing by three. Place the result in a new variable.
     //2. Use an if statement to check which number bracket the score belong's to and return the appropriate letter grade.
-//Time Complexity: Linear or 0(n) depending on the amount of parameters passed through.
+//Time Complexity: Linear or O(n) depending on the amount of parameters passed through.
 
 function getGrade (s1, s2, s3) {
     let avg = (s1 + s2 + s3) / 3

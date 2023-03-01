@@ -18,7 +18,7 @@
     //1. Use the split method to seperate string characters into individual elements.
     //2. Use the map array method to iterate over each element, adding a copy of it to each.
     //3. Use the array join method to combine all the elements in the array into a string and return the result.
-//Time Complexity: Linear or 0(n), depending on the length of the given string.
+//Time Complexity: Linear or O(n), depending on the length of the given string.
 
 function doubleChar(str) {
     return str.split('').map(e => e + e).join('')

@@ -29,7 +29,7 @@
     //1. Compute the average of the class using a reduce array method.
     //2. Divide it's results by the amount of students or length of the given array to get the average score in the class.
     //3. Use an if statement to return true if your score is higher than the class average. Otherwise return false.
-//Time Complexity: Linear or 0(n) based on the length of the classPoints array
+//Time Complexity: Linear or O(n) based on the length of the classPoints array
 
 function betterThanAverage(classPoints, yourPoints) {
     let avg = classPoints.reduce((a,c) => a+c,0)/classPoints.length

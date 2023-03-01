@@ -33,7 +33,7 @@
 //Pseudocode: 
     //1. Create a for loop, iterating over each element of the given array until a non-consecutive value is found.
     //2. If the for loop concludes without returning a value, return a value of null for a consecutive array.
-//Time Complexity: Linear or 0(n), depending on the length of the array.
+//Time Complexity: Linear or O(n), depending on the length of the array.
 
 function firstNonConsecutive (arr) {
     for (let i=0; i< arr.length;i++) {

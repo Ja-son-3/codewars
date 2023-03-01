@@ -6,7 +6,7 @@
     // Test.assertEquals(doubleInteger(2), 4);
 //Pseudocode: 
     //1. multiply the given parameter by two and return it
-//Time Complexity: constant or 0(1)
+//Time Complexity: constant or O(1)
 
 function doubleInteger(i) {
     return i*2;

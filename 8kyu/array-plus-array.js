@@ -11,7 +11,7 @@
     // assert.strictEqual(arrayPlusArray([100, 200, 300], [400, 500, 600]), 2100);
 //Pseudocode: 
     //1. Use the reduce array method on both arrays and add their values together to get the sum of both arrays.
-//Time Complexity: Linear or 0(n), depending on the length of the given arrays.
+//Time Complexity: Linear or O(n), depending on the length of the given arrays.
 
 function arrayPlusArray(arr1, arr2) {
     return arr1.reduce((a,c) => a+c,0) + arr2.reduce((a,c) => a+c,0)

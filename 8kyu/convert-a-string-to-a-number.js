@@ -17,7 +17,7 @@
     // Test.assertEquals(stringToNumber("-7"),  -7)
 //Pseudocode: 
     //1. Use the parseInt function to parse.
-//Time Complexity: Linear based on length of the string.
+//Time Complexity: O(n) or Linear based on length of the string.
 
 const stringToNumber = function(str){
     return parseInt(str)

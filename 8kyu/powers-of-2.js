@@ -16,7 +16,7 @@
     //2. Create a for loop that will iterate n times.
     //3. With each iteration of the for loop push 2 to the power of the current loop, starting at a value of 0 to the array.
     //4. Return the array.
-//Time Complexity: Linear or 0(n), depending on the n parameter.
+//Time Complexity: Linear or O(n), depending on the n parameter.
 
 function powersOfTwo(n){
     let arr = []

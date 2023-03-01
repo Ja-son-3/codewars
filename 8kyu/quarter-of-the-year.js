@@ -14,7 +14,7 @@
 //Pseudocode: 
     //1. Use the Math.ceil static method on month divided by 3 to find the quarter of the year of the given parameter.
     //2. Return the result.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 const quarterOf = (month) => {
     return Math.ceil(month/3)

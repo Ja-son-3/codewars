@@ -15,7 +15,7 @@
     //1. Find the amount of dragon's the hero is able to kill with the given bullet parameter by dividing it by two.
     //2. Use an if statement to check whether the amount of dragon's he hero is able to kill with his bullets is greater or equal to the given dragons amount parameter. If the case return true.
     //3. Otherwise return false.
-//Time Complexity: constant or 0(1)
+//Time Complexity: constant or O(1)
 
 function hero(bullets, dragons){
     return bullets / 2 >= dragons

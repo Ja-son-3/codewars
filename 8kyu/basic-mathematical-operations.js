@@ -12,7 +12,7 @@
     // Test.assertSimilar(basicOp('/', 49, 7), 7);
 //Pseudocode: 
     //1. Use an if statement to check whether the operation is addition, subtraction, multiplication or division and return the respective value using the two number parameters based on the operation parameter.
-//Time Complexity: linear or 0(n)
+//Time Complexity: linear or O(n)
 
 function basicOp(operation, value1, value2) {
     if (operation == '+') {

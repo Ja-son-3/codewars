@@ -6,7 +6,7 @@
     // assert.strictEqual(greet(), "hello world!");
 //Pseudocode: 
     //1. return a string of "hello world!"
-//Time Complexity: constant
+//Time Complexity: constant or O(1)
 
 function greet() {
     return "hello world!"

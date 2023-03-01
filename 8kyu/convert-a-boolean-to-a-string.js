@@ -9,7 +9,7 @@
     // Test.assertEquals(booleanToString(false), "false", 'When we pass in false, we want the string "false" as output');
 //Pseudocode: 
     //1. Use the toString() method to convert the given boolean value into a string.
-//Time Complexity: Linear or 0(n) depending on the string length
+//Time Complexity: Linear or O(n) depending on the string length
 
 function booleanToString(b){
     return b.toString()

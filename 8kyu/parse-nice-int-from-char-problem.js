@@ -11,7 +11,7 @@
 //Pseudocode: 
     //1. Get the character at index 0 of the string by using the givenstring with an index or [0].
     //2. Use a unary plus operator to convert the string into a number and return the result.
-//Time Complexity: constant or 0(1)
+//Time Complexity: constant or O(1)
 
 function getAge(inputString){
     return +inputString[0]

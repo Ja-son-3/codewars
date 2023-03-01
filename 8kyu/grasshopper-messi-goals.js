@@ -24,7 +24,7 @@
 //Pseudocode: 
     //1. Set LaligaGoals to 43, set championsLeagueGoals to 10, and set copaDelReyGoals to 5
     //2. Set totalGoals to the sum of laLigaGoals, championsLeagueGoals and copaDelReyGoals.
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 var laLigaGoals = 43
 var championsLeagueGoals = 10

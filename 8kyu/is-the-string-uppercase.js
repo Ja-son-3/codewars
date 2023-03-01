@@ -48,7 +48,7 @@
 //Pseudocode: 
     //1. Apply the toUpperCase() method to the given parameter and check if it is equal to the given parameter.
     //2. If it is equal return a value of true, otherwise return false.
-//Time Complexity: Linear or 0(n), depending on the length of the string when apply the toUpperCase() method
+//Time Complexity: Linear or O(n), depending on the length of the string when apply the toUpperCase() method
 
 String.prototype.isUpperCase = function() {
     return this.toString() === this.toUpperCase()

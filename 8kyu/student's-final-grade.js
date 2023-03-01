@@ -32,7 +32,7 @@
     //2. Create an if statement to check if exam score is over 75 and projects is 5 or over. If so return a value of 90
     //3. Create an if statement to check if exam score is over 50 and projects is 2 or over. If so return a value of 75
     //4. Otherwise return a value of 0
-//Time Complexity: Constant or 0(1)
+//Time Complexity: Constant or O(1)
 
 function finalGrade (exam, projects) {
     if (exam > 90 || projects > 10) {
